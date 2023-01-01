@@ -1,0 +1,121 @@
+body{
+  background-color: #ced4de;
+}
+ 
+.container{
+  height: 500px;
+  width: 380px;
+  background-color: #e0e0e0;
+  margin: auto;
+  border-radius: 5%;
+  margin-top: 5%;
+  box-shadow: 5px 5px 11px #828282 , -5px -5px 11px #ffffff;
+  border-color: black;
+}
+
+.screen{
+  height: 80px;
+  width: 342px;
+  background-color: #ced4de;
+  border-color: #e0e0e0;
+  position: relative;
+  top: 20px;
+  left: 4%;
+  border-radius: 5%;
+  box-shadow: inset 5px 5px 7px #828282, inset -5px -5px 7px #ffffff;
+  text-align:center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.clearer{
+  height: 55px;
+  width: 169px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 5px 5px 21px #aaaaaa, -5px -5px 21px #ffffff;
+  position: absolute;
+  left: 20px;
+  top: 6.5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.clearer:hover {
+  background-color: rgb(30, 43, 46);
+  color: white;
+}
+
+.button{
+  height: 60px;
+  width: 60px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+}
+.button:hover {
+  background-color: rgb(30, 43, 46);
+  color: white;
+}
+
+.rc{
+  position: absolute;
+  right: 20px;
+  top: 6px;
+}
+.ra{
+  position: absolute;
+  right: 112.5px;
+  top: 6px;
+}
+.lc{
+  position: absolute;
+  left: 112.5px;
+  top: 6px;
+}
+.la{
+  position: absolute;
+  left: 20px;
+  top: 6px;
+}
+
+
+.Row{
+  height: 70px;
+  width: 380px;
+}
+
+.one{
+  position: relative;
+  top: 46px;
+
+}
+.two{
+  position: relative;
+  top: 50px;
+}
+.three{
+  position: relative;
+  top: 50px;
+}
+.four{
+  position: relative;
+  top: 50px;
+}
+.five{
+  position: relative;
+  top: 50px;
+}
+
+
+.credit{
+  height: 20vh;
+  width: 100vw;
+  background-color: #4a1519;
+}
